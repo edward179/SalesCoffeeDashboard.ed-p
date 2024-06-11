@@ -34,13 +34,13 @@ The dataset contains orders, customers products which respectively located in Un
 | Product ID              | the ID of products                      |
 | Quantity                | the number of orders                    |
 | Customer Name           | the customer name                       |
-| Email                   | the ID of products                      |
-| Country                 | the ID of products                      |
-| Coffee Type             | the ID of products                      |
-| Roast Type              | the ID of products                      |
-| Size                    | the ID of products                      |
-| Unit Price              | the ID of products                      |
-| Sales                   | the ID of products                      |
+| Email                   | the email customer                      |
+| Country                 | the country name                        |
+| Coffee Type             | the type of coffee                      |
+| Roast Type              | the name of roast (medium, light, dark) |
+| Size                    | the size of roast                       |
+| Unit Price              | the unit price                          |
+| Sales                   | total sales of product                  |
 
 `customers`
 | Column                  | Description                             |
@@ -63,7 +63,7 @@ The dataset contains orders, customers products which respectively located in Un
 | Roast Type              | the name of roast (medium, light, dark) |
 | Size                    | the size of a bag of roast type         |
 | Unit Price              | the unit price                          |
-| Price per 100g          | the unit price of 100g coffee           |
+| Price per 100g          | the unit price per 100g coffee          |
 | Profit                  | the profit of each products             |
 
 ## Generic Question
